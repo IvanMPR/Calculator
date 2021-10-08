@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="calc-body">
+        <div class="display">
+          <div class="mute-btn"><i class="fas fa-volume-mute fa-2x"></i></div>
+          <div class="unmute-btn hidden">
+            <i class="fas fa-volume-up fa-2x"></i>
+          </div>
+          <p class="disp-content"></p>
+        </div>
+        <div class="digits-container">
+          <div class="digits num" id="1">1</div>
+          <div class="digits num" id="2">2</div>
+          <div class="digits num" id="3">3</div>
+          <div class="digits operator plus" id="+">+</div>
+          <div class="digits num" id="4">4</div>
+          <div class="digits num" id="5">5</div>
+          <div class="digits num" id="6">6</div>
+          <div class="digits operator minus" id="-">-</div>
+          <div class="digits num" id="7">7</div>
+          <div class="digits num" id="8">8</div>
+          <div class="digits num" id="9">9</div>
+          <div class="digits operator multiply" id="*">*</div>
+          <div class="digits num dot" id=".">.</div>
+          <div class="digits num" id="0">0</div>
+          <div class="digits operator clear">AC</div>
+          <div class="digits operator divide" id="/">/</div>
+          <div class="digits eq">=</div>
+        </div>
+      </div>
+    </div>
+    <audio
+      src="sounds/550430__diicorp95__digital-button-touch.wav"
+      class="beep tones"
+    >
+      Numbers Touching Sound
+    </audio>
+    <audio
+      src="sounds/334764__dneproman__ma-sfx-8bit-tech-gui-9.wav"
+      class="cbs tones"
+    >
+      Clear Button Sound
+    </audio>
+    <audio src="sounds/219069__annabloom__click1.wav" class="ebs tones">
+      Equal Button Sound
+    </audio>
+  </body>
+</html>
