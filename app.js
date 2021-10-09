@@ -68,7 +68,7 @@ function calc(string) {
       : firOp / secOp;
 
   clearFields();
-  data.result = result;
+  result % 1 === 0 ? (data.result = result) : (data.result = result.toFixed(4));
 }
 
 function renderExpression(t) {
