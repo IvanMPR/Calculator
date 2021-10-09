@@ -135,6 +135,12 @@ i:hover {
   .calc-body {
     width: 80%;
   }
+  .disp-content {
+    font-size: 3rem;
+  }
+  .digits {
+    font-size: 2.5rem;
+  }
 }
 @media screen and (min-width: 621px) and (max-width: 920px) {
   .calc-body {
