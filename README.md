@@ -12,3 +12,7 @@ performed, and result is displayed.
 
 All of the buttons produce sound when clicked, clear button and equals button have their unique sound.
 There is the speaker icon in the left side of the display, where user can mute/unmute calculator key sounds.
+Also, sounds can be muted by pressing 'm' or 'M' keys on the keyboard, and unmuted by pressing 'u' or 'U'.
+
+All numerical inputs from the keyboard will work also, '=' button is attached to 'Enter'('Return') keys  
+and the '=' key as well. User can clear inputs on 'Backspace', 'Clear' and 'Delete' keyboard keys.
