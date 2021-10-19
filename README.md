@@ -19,5 +19,10 @@ and the '=' key as well. User can clear inputs on 'Backspace', 'Clear' and 'Dele
 
 Operations with floating point numbers are possible also, user can input them with or without leading zero.
 For the sake of simplicity, maximum length of output(result) decimal places is reduced to 4.
-It tried a lot to prevent irregular inputs, but if you are creative enough, it is still possible to receive 'NaN' or
+I tried a lot to prevent irregular inputs, but if you are creative enough, it is still possible to receive 'NaN' or
 'Infinity' as result.
+
+When the result is displayed, it is not possible to use it as a first operand in a new operation. Next click on a number
+will clear display and print new input.
+
+This was very usefull and fun project for me !
