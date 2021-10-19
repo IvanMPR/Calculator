@@ -1,3 +1,14 @@
 # Calculator
 
 <img src="img/screenshot1.jpg" width="49%"> <img src="img/screenshot2.jpg" width="49%">
+
+I tried to build this calculator in the very first months of my JavaScript journey,
+and it was really hard. But after a certain time and lot of practice in between, I was able to 
+finish it without a lot of trouble.
+
+Inputs are picked up as strings and concatinated to each other, until the '=' button is pressed.
+Then the string is splitted, operators and operands are parsed, all of the calculations are 
+performed, and result is displayed.
+
+All of the buttons produce sound when clicked, clear button and equals button have their unique sound.
+There is the speaker icon in the left side of the display, where user can mute/unmute calculator key sounds.
