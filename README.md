@@ -16,3 +16,8 @@ Also, sounds can be muted by pressing 'm' or 'M' keys on the keyboard, and unmut
 
 All numerical inputs from the keyboard will work also, '=' button is attached to 'Enter'('Return') keys  
 and the '=' key as well. User can clear inputs on 'Backspace', 'Clear' and 'Delete' keyboard keys.
+
+Operations with floating point numbers are possible also, user can input them with or without leading zero.
+For the sake of simplicity, maximum length of output(result) decimal places is reduced to 4.
+It tried a lot to prevent irregular inputs, but if you are creative enough, it is still possible to receive 'NaN' or
+'Infinity' as result.
