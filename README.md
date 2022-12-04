@@ -3,7 +3,7 @@ HTML, CSS, Vanilla JS
 
 <img src="img/screenshot1.jpg" width="49%"> <img src="img/screenshot2.jpg" width="49%">
 
-I tried to build this calculator in the very first months of my JavaScript journey,
+I tried to build this <a href="https://ivanmpr.github.io/Calculator/">calculator</a> in the very first months of my JavaScript journey,
 and it was really hard. But after a certain time and lot of practice in between, I was able to 
 finish it without a lot of trouble.
 
